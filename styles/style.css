@@ -150,6 +150,7 @@
   text-transform: uppercase;
   mix-blend-mode: hard-light;
   text-shadow: 0 0 1px var(--bg-color);
+  z-index: 1;
 }
 
 .card__img {
@@ -341,3 +342,13 @@
   }
 }
 
+@supports (
+  (-webkit-text-stroke: 1px var(--bg-color)) or
+    (text-stroke: 1px var(--bg-color))
+) {
+  .card__img-label {
+    text-shadow: none;
+    -webkit-text-stroke: 1px var(--bg-color);
+    text-stroke: 1px var(--bg-color);
+  }
+}
