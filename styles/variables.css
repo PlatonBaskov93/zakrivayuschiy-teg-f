@@ -1,1 +1,21 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+/*Основная тема - светлая, верстка от десктопа*/
+:root {
+  --text-color: #000;
+  --bg-color: #fff;
+  --bg-image: 
+      repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+      repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+      linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+
+  --main-font: "Inter", sans-serif;
+  --main-font-weight: 400;
+  --titles-font-weight: 700;
+  --accent-font: "PressStart2P", fantasy;
+
+  --like-main-body-color: transparent;
+  --like-contour-color: var(--text-color);
+  --like-sparks-color: #ff0000;
+
+  --button-text-color: var(--bg-color);
+}
