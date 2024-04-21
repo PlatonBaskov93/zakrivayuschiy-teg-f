@@ -338,10 +338,12 @@
     padding: 28px 34px 28px 40px;
     max-inline-size: 340px;
   }
-  .card__img-label{
+
+  .card__img-label {
   inset-block-start: 24px;
   inset-inline-end: 12px;
 }
+
   .save-button {
     flex-direction: column;
   }
