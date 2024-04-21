@@ -19,7 +19,7 @@
     <script src="./scripts/set-theme.js"></script>
   </head>
   <body class="page">
-    <header class="header card">
+    <header class="header container">
       <span class="header__mnemonic">&lt;/HTML&gt;</span>
       <h1 class="header__title">закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
@@ -48,8 +48,6 @@
       </nav>
     </header>
     <main class="main">
-      <ul class="cards-list">
-        <li>
           <article class="card">
             <header class="card__header">
               <h2 class="card__title">
@@ -115,8 +113,6 @@
               </button>
             </footer>
           </article>
-        </li>
-        <li>
           <article class="card">
             <header class="card__header">
               <h2 class="card__title">
@@ -133,9 +129,9 @@
             </div>
             <div class="card__text-content">
               <p>
-                Первый проект — позади! 
-                Но это всё ещё самое начало пути. Радость могла быстро померкнуть и смениться ожиданием провала. 
-                Или вы, наоборот, могли вдохновиться успехами и поверить в себя.
+                На первых этапах мы работали со страхами и сомнениями, которые часто испытывают новички.
+                Один из них — страх перед чистым листом. Это, конечно же, намного сложнее, чем боязнь куска бумаги. 
+                Часто за этим ощущением скрываются более глубокие вопросы: с чего начать? а вдруг будет слишком сложно? что, если я не справлюсь?
               </p>
               <p>Я не безнадежен!</p>
             </div>
@@ -182,8 +178,6 @@
               </button>
             </footer>
           </article>
-        </li>
-               <li>
           <article class="card">
             <header class="card__header">
               <h2 class="card__title">
@@ -249,8 +243,6 @@
               </button>
             </footer>
           </article>
-        </li>
-        <li>
           <article class="card">
             <header class="card__header">
               <h2 class="card__title">
@@ -316,8 +308,6 @@
               </button>
             </footer>
           </article>
-        </li>
-        <li>
           <article class="card">
             <header class="card__header">
               <h2 class="card__title">
@@ -338,7 +328,7 @@
                 Вас окружали одногруппники, команда сопровождения и просто близкие люди, которым можно пожаловаться, если очередной макет просто так не поддавался.
                 Осваивать что-то новое легче, когда рядом есть единомышленники, не правда ли?
               </p>
-              <p>Нет более глубокого одиночества, чем одиночество самурая, разве что, может быть, одиночество тигра в джунглях</p>
+              <p>Нет более глубокого одиночества, чем одиночество самурая</p>
             </div>
             <footer class="card__footer">
               <button
@@ -383,8 +373,6 @@
               </button>
             </footer>
           </article>
-        </li>
-        <li>
           <article class="card">
             <header class="card__header">
               <h2 class="card__title">
@@ -450,8 +438,6 @@
               </button>
             </footer>
           </article>
-        </li>
-        <li>
           <article class="card">
             <header class="card__header">
               <h2 class="card__title">
@@ -517,8 +503,6 @@
               </button>
             </footer>
           </article>
-        </li>
-        <li>
           <article class="card">
             <header class="card__header">
               <h2 class="card__title">
@@ -539,7 +523,7 @@
                 Во-вторых, с окончанием курса учёба не заканчивается. Вёрстка — это целый мир. И этот мир постоянно меняется.
                 Познать его полностью не получится, но это тот случай, когда важен сам процесс познания. Ведь часто путь — и есть результат.
               </p>
-              <p>Омниссия был щедр к тебе: Он даровал тебе понимание. </p>
+              <p>Место, чтобы остановиться, подумать и написать, что вы чувствуете в этой точке пути.</p>
             </div>
             <footer class="card__footer">
               <button
@@ -584,8 +568,6 @@
               </button>
             </footer>
           </article>
-        </li>
-      </ul>
       <button
         type="button"
         onclick="window.popup.showModal();"
@@ -600,10 +582,10 @@
     </main>
     <dialog class="popup" id="popup">
       <div class="popup__content">
-        <svg class="popup__icon" viewBox="0 0 21 21">
-          <use href="./svg/floppy.svg#floppy" />
+        <svg class="popup__icon">
+          <use href="./svg/floppy.svg#bigFloppy" />
         </svg>
-        <p>Вставьте дискету,чтобы продолжить</p>
+        <h3>Вставьте дискету,чтобы продолжить</h3>
       </div>
       <form method="dialog">
         <button type="submit" class="button popup__button">
